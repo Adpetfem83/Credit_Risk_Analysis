@@ -75,7 +75,7 @@ Using the split method to categorize the data for training vs testing, 51,366 "l
 
 ### Combination Sampling
 
-**`SMOTEENN (Synthetic Minority Oversampling Technique + Edited NearestNeighbors) Model`** combines aspects of both oversampling and undersampling. The model classified 68,460 records as High Risk and 62,011 as Low Risk.
+**`SMOTEENN (Synthetic Minority Oversampling Technique + Edited NearestNeighbors) Model`** combines aspects of both oversampling and undersampling. 
 
 ![SMOTEENNcount](https://github.com/Adpetfem83/Credit_Risk_Analysis/blob/main/Images/Figure_11.png)
 
@@ -83,7 +83,7 @@ Using the split method to categorize the data for training vs testing, 51,366 "l
 
   ![SMOTEENNacc](https://github.com/Adpetfem83/Credit_Risk_Analysis/blob/main/Images/Figure_12.png)
 
-  * The "High Risk" precision rate did not improve was only 1%, however the recall increased to 77% giving this model an F1 score of 2%.
+  * The "High Risk" precision rate did not improve appreciably, in fact it increased by only 1%, however the recall increased significantly to 77% giving this model an F1 score of 2%.
   * "Low Risk" still showed a precision rate of 100% with the recall at 55%.  
   
   ![SMOTEENNcm](https://github.com/Adpetfem83/Credit_Risk_Analysis/blob/main/Images/Figure_13a.png)
@@ -92,7 +92,7 @@ Using the split method to categorize the data for training vs testing, 51,366 "l
 
 ## Deliverable 3: Use Ensemble Classifiers to Predict Credit Risk
 
-Compare two new `Machine Learning` models that reduce bias to predict credit risk. The models classified 17,104 as High Risk and 101 as Low Risk.
+Compare two new `Machine Learning` models that reduce bias to predict credit risk. The models classified 17,104 as low Risk and 101 as High Risk.
 
 ![Balancedcount](https://github.com/Adpetfem83/Credit_Risk_Analysis/blob/main/Images/Figure_14.png)
 
@@ -124,7 +124,7 @@ Compare two new `Machine Learning` models that reduce bias to predict credit ris
 
 # Summary
 
-In reviewing all six models, the `EasyEnsembleClassifer` model yielded the best results with an accuracy rate of 93.2% and a 9% precision rate when predicting "High Risk candidates. The sensitivity rate (aka recall) was also the highest at 92% compared to the other models. The result for predicting "Low Risk" was also the highest with the sensitivity rate at 94% and an F1 score of 97%. Therefore, if a model needed to be recommended to perform this type of analysis, then this one would be the clear choice.
+Analysis of all the six models revealed that, `EasyEnsembleClassifer` model produced the best results with an accuracy rate of 93.2% and a 9% precision rate when predicting "High Risk candidates. The sensitivity rate (aka recall) was also the highest at 92% compared to the other models. The result for predicting "Low Risk" was also the highest with the sensitivity rate at 94% and an F1 score of 97%. Therefore, if a model needed to be recommended to perform this type of analysis, then this one would be the clear choice.
 
 **Ranking of models in descending order based on "High Risk" results:**
 * `EasyEnsembleClassifer`: 93.2% accuracy, 9% precision, 92% recall, and 16% F1 Score
