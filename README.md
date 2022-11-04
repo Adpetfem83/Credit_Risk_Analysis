@@ -8,13 +8,13 @@ Credit Risk Analysis uses Machine Learning algorithms to identify credit card ri
 
 # Overview
 
-The aim and purpose of this analysis is to comprehend how to apply `Machine Learning` statistical algorithms to make predictions based on the pattern of the data provided. This particular challenge focuses on **Supervised Learning(for the data is labeled)** using a free dataset from **LendingClub**, a P2P lending service company that evaluates and predicts credit risk of individuals.
+The aim and purpose of this challenge is to understand how `Machine Learning` statistical algorithms could be applied to make predictions based on the pattern of the data given. This particular challenge focuses on Supervised Learning(for the data is labeled) and a free dataset from **LendingClub**, a P2P lending service company that analyses and predicts individual's credit risk 
 
-Furthermore, we use different `Machine Learning` techniques to train and evaluate the data with unbalanced classes. The dataset has an unbalanced classification problem due to the number of good loans outweighing the amount of risky loans. We therefore try to balance out the classifications for us to allow more meaningful predictions and improve the accuracy score, we then employed various `Machine Learning` algorithms to resample the data. The algorithms include the following`RandomOverSampler`, `SMOTE`, `ClusterCentroids`, `SMOTEENN`, `BalancedRandomForestClassifier`, and `EasyEnsembleClassifier`. We also made use of Python'libraries such as 'scikit-learn', 'imbalanced-learn' to evaluate the resultss and provide a basis for comparison.
+Meanwhile, I applied different `Machine Learning` techniques to train and analyse the data with unbalanced classes. This dataset used has an unbalanced classification isses due to the number of good loans outweighing the amount of risky loans. Therefore, I tried to balance out the classifications in order to allow more meaningful predictions and improve the accuracy score, we then employed various `Machine Learning` algorithms to resample the data. Some of the algorithms used include the following `RandomOverSampler`, `SMOTE`, `ClusterCentroids`, `SMOTEENN`, `BalancedRandomForestClassifier`, and `EasyEnsembleClassifier`. We also used Python'libraries such as 'scikit-learn', 'imbalanced-learn' in order to analyse the results and provide a basis for comparison.
 
 # Results
 
-There are 115,675 total loan applications in the original dataset Q1 of 2019. We thus used the "loan status" to determine whether the application was considered "low" or "high" risk. The applications that had "current" as the "loan status" were classified as "low risk" and the remaining as "high risk". This eventually reduced the dataset to 68,817 total applications with 99% classified as "low risk". 
+The Original dataset "LoanStats_2019Q.csv" revealed a total of 115,675 loan applications that were provided. We then used the "loan status" to determine whether the application was considered "low" or "high" risk. The applications that had "current" as the "loan status" were classified as "low risk" and the remaining as "high risk". This ultimately reduced the dataset to 68,817 total applications with 99% classified as "low risk". 
 
 ![datacount](https://github.com/Adpetfem83/Credit_Risk_Analysis/blob/main/Images/Figure_1.png)
 
