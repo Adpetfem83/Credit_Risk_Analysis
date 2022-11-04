@@ -4,7 +4,7 @@
 
 ![lendinglogo](https://github.com/Adpetfem83/Credit_Risk_Analysis/blob/main/Images/LendingClub.png)
 
-Credit Risk Analysis uses Machine Learning algorithms to identify credit card risk using a dataset from LendingClub.
+Credit Risk Analysis applies Machine Learning algorithms to identify credit card risk using a dataset from LendingClub.
 
 # Overview
 
