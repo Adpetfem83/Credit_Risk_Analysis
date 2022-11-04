@@ -137,6 +137,6 @@ In reviewing all six models, the `EasyEnsembleClassifer` model yielded the best 
 A side note that should be considered is that original dataset had 99% of the applications classified as "Low Risk" with only 1% of the data classified in the "High Risk" category. This may skew the results greatly as there is a risk that the `Machine Learning` algorithms are creating clusters drawing from too small of a dataset of actual "High Risk" applications. This margin of risk might not be something that banks would be comfortable accepting.
 
 # Resources
-
-* Dataset from LendingClub: [LoanStats_2019Q](https://github.com/Adpetfem83/Credit_Risk_Analysis/blob/main/Resources/LoanStats_2019Q.csv)
+                                              
+* Dataset from LendingClub: [LoanStats_2019Q](https://github.com/Adpetfem83/Credit_Risk_Analysis/blob/main/LoanStats_2019Q.csv)
 * Software: Python 3.7.9, Anaconda 4.9.2 and Jupyter Notebooks 6.1.4
